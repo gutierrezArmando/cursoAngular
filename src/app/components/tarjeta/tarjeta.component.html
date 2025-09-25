@@ -1,0 +1,17 @@
+<div class="card shadow-sm" (click)="getNombreProducto()">
+  <div class="row">
+    <div class="col-4 contenedor-imagen">
+      <img [src]="pastel.imagen" height="100px" width="100px" class="rounded">
+    </div>
+    <div class="col-8">
+      <div class="row">
+        <div class="col-12 clase-nombre-producto">
+          <label>{{pastel.nombrePastel}}</label>
+        </div>
+        <div class="col-12">
+          <p>{{pastel.descripcion}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

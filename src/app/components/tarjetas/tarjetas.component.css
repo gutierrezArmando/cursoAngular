@@ -1,0 +1,9 @@
+.seccion-oculta{
+  display: none;
+}
+
+
+.mensaje-error-oculto{
+  /* display: none; */
+  visibility: hidden;
+}

@@ -1,0 +1,23 @@
+/* .clase-tarjeta{
+  border: 1px solid #4185EC;
+} */
+.card{
+  padding: 5px;
+  transition: transform 0.5s;
+}
+
+.card:hover{
+  border: 1px solid green;
+  transform: scale(1.02);
+}
+.contenedor-imagen{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.clase-nombre-producto{
+  text-align: center;
+  font-weight: bold;
+}
